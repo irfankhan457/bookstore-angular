@@ -5,7 +5,10 @@ import { HttpModule } from '@angular/http';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import {MatToolbarModule} from '@angular/material/toolbar';
 import 'hammerjs';
+
+
 
 
 import { AppComponent } from './app.component';
@@ -24,7 +27,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     BrowserAnimationsModule,
     NoopAnimationsModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
